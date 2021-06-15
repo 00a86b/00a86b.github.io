@@ -1,0 +1,157 @@
+
+
+
+@font-face {
+	font-family:'digestive 1';
+	src: url('fonts/DigestiveDemo-One.otf');
+}
+
+@font-face {
+	font-family:'digestive 3';
+	src: url('fonts/DigestiveDemo-Three.otf');
+}
+
+@font-face {
+	font-family: 'gt america exp med italic';
+	src: url('fonts/GT-America-Expanded-Medium-Italic-Trial.otf');
+}
+
+@font-face {
+	font-family: 'gt america exp med';
+	src: url('fonts/GT-America-Expanded-Medium-Trial.otf');
+}
+
+@font-face {
+	font-family: 'gt flexa expanded regular italic';
+	src: url('fonts/GT-Flexa-Expanded-Regular-Italic-Trial.otf');
+}
+
+@font-face {
+	font-family: 'gt flexa expanded medium italic';
+	src: url('fonts/GT-Flexa-Expanded-Medium-Italic-Trial.otf');
+}
+
+@font-face {
+	font-family: 'gt flexa bold';
+	src: url('fonts/GT-Flexa-Bold-Trial.otf');
+}
+
+@font-face {
+	font-family:'irregardless containers';
+	src: url('fonts/IrregardlessDemo-Containers.otf');
+}
+
+
+
+
+.custom-bg {
+	background:radial-gradient(#01211E,#77A276 72%);
+	min-height:calc(100vh + 35px);
+/*		background: #01211E; */
+/*		background:linear-gradient(90deg,#00a86b 50%, #01211E 50%); */
+}
+
+.fixed-max-width {
+	margin: auto;
+}
+
+.navbar-brand {
+/*	font-family: 'digestive 3';*/
+	font-family: 'gt america exp med italic';
+	font-size:18px;
+	letter-spacing: 2px;
+	justify-content: left;
+	color:#D8E3D7;
+}
+
+.navbar-brand:hover{
+	color:#00a86b;
+}
+
+.menu {
+	width: 100%;
+	justify-content: space-between;
+	display: flex;
+}
+
+.nav-link {
+	font-family: 'gt america exp med';
+	color: #D8E3D7;
+	letter-spacing: 2px;
+	font-size:14px;
+}
+
+.nav-link:hover{
+	color: #D8E3D7;
+	border-bottom:none;
+	padding-bottom: 4px;
+	background-repeat: repeat;
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 10 18'%3E%3Cstyle type='text/css'%3E.squiggle%7Banimation:shift 1s linear infinite;%7D@keyframes shift %7Bfrom %7Btransform:translateX(-10px);%7Dto %7Btransform:translateX(0);%7D%7D%3C/style%3E%3Cpath fill='none' stroke='%23D8E3D7' stroke-width='0.5' class='squiggle' d='M0,17.5 c 2.5,0,2.5,-1.5,5,-1.5 s 2.5,1.5,5,1.5 c 2.5,0,2.5,-1.5,5,-1.5 s 2.5,1.5,5,1.5' /%3E%3C/svg%3E");
+}
+
+.top {
+	top:0;
+	position:fixed;
+	position: -webkit-fixed;
+}
+
+.foot {
+	bottom: 0;
+	position:fixed;
+	position: -webkit-fixed;
+}
+
+.display-2 {
+	color:#D8E3D7;
+	text-align: center;
+	font-family: 'gt flexa expanded regular italic';
+}
+
+.jade-stars {
+	font-family:'irregardless containers';
+	font-size:1.4em;
+	letter-spacing:-1.5px;
+	line-height:0.6px;
+}
+
+.jade-name {
+	font-family: 'gt flexa expanded medium italic';
+	font-size:1em;
+	letter-spacing: 0.2em;
+}
+/*.footer {
+	width: 100%;
+	display: flex;
+	position:absolute;
+	max-height: calc(100vh + 35px);
+	background-color: #77A276;
+	align-items: center;
+	justify-content: center;
+} */
+
+.menu-icon {
+	color:#D8E3D7;
+	font-style: 1.3em;
+}
+
+
+
+/* ABOUT PAGE */
+
+.about-bg {
+	background-color:#01211E;
+}
+
+.display-3 {
+  font-family:'digestive 2';
+  color: #D8E3D7;
+  text-align:right;
+	letter-spacing: 3px;
+
+}
+
+.display-5 {
+  font-family:'gt flexa regular';
+  color: #D8E3D7;
+  text-align:left;
+}
